@@ -15,8 +15,8 @@ const Sidebar = () => {
     >
       <VStack spacing="8px" alignItems="flex-start">
         {sideNav.map((data, idx) => (
+        <NextLink key={idx} href={data.route}>
           <Button
-            key={idx}
             justifyContent="flex-start"
             gap="10px"
             fontSize="19px"
@@ -27,8 +27,9 @@ const Sidebar = () => {
             pr="20px"
             _hover={{ bgColor: '#505152', w: 'unset', borderRadius: '36px' }}
           >
-            <NextLink href={data.route}>{data.title}</NextLink>
+              {data.title}
           </Button>
+        </NextLink>
         ))}
       </VStack>
     </Box>
