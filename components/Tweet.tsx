@@ -9,7 +9,7 @@ const Tweet = () => {
     <HStack spacing='12px' color='white' fontSize='1rem' borderBottom='1px solid #2F3336' px='16px' py='12px' alignItems='flex-start'>
       <Avatar src='https://bit.ly/dan-abramov' size='md' />
       <Box>
-        <Text mb='8px'> Display name <span color='#6E767D'>@twitter handle </span> </Text>
+        <Text mb='8px'> Display name <Text as='span' color='#6E767D' fontSize='14px' pl='4px'>@twitter handle </Text> <Text as='span' color='#6E767D' fontSize='14px' pl='4px'> time </Text>  </Text>
         <Text> President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.</Text>
 
         <Grid templateColumns='repeat(4, 1fr)' gap='4px'>
