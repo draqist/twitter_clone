@@ -9,7 +9,7 @@ import {
 const colors = {};
 
 const config: ThemeConfig = {
-  initialColorMode: 'dark',
+  initialColorMode: 'light',
 };
 const Button: ComponentStyleConfig = {
   baseStyle: {
