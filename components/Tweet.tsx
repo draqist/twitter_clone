@@ -40,10 +40,12 @@ const Tweet = () => {
             time{' '}
           </Text>{' '}
         </Text>
+
         <Text>
-          {' '}
           President Joe Biden touted a new agreement reached with the European
+          {/* eslint-disable-next-line */}
           Union to ease Trump-era tariffs on aluminum and steel as a "major
+          {/* eslint-disable-next-line */}
           breakthrough" that would serve to both strengthen the US steel
           industry and combat the global climate crisis.
         </Text>

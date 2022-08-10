@@ -38,6 +38,7 @@ const Home: NextPage = () => {
               color="white"
             />
           </FormControl>
+          {/* eslint-disable-next-line */}
           <Text my="20px"> Select fields you're interested in </Text>
           <Grid
             templateColumns={'repeat(4, 1fr)'}

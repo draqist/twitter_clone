@@ -15,21 +15,21 @@ const Sidebar = () => {
     >
       <VStack spacing="8px" alignItems="flex-start">
         {sideNav.map((data, idx) => (
-        <NextLink key={idx} href={data.route}>
-          <Button
-            justifyContent="flex-start"
-            gap="10px"
-            fontSize="19px"
-            leftIcon={<data.icon fontSize="24px" />}
-            variant="ghost"
-            h="50px"
-            pl="10px"
-            pr="20px"
-            _hover={{ bgColor: '#505152', w: 'unset', borderRadius: '36px' }}
-          >
+          <NextLink key={idx} href={data.route}>
+            <Button
+              justifyContent="flex-start"
+              gap="10px"
+              fontSize="19px"
+              leftIcon={<data.icon fontSize="24px" />}
+              variant="ghost"
+              h="50px"
+              pl="10px"
+              pr="20px"
+              _hover={{ bgColor: '#505152', w: 'unset', borderRadius: '36px' }}
+            >
               {data.title}
-          </Button>
-        </NextLink>
+            </Button>
+          </NextLink>
         ))}
       </VStack>
     </Box>
